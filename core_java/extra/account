@@ -1,0 +1,10 @@
+attributes:  acc_name
+			 acc_bal
+			 roi
+			 acc_no
+			 acc_type
+			 
+methods:     withdraw
+			 deposit
+			 cal_interest
+			 check_bal
