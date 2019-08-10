@@ -1,0 +1,23 @@
+Defect title
+
+The money Transfer from account A to Account B leaves the account A with a lesser balance than expected.
+
+Description:
+
+EXpected Result:
+The initial balance of Account A is Rs.15000. After transfering rs3000 to account B, the balaance in Account is calculated as 15000-3000=12000;
+
+Actual Behavior: 
+The initial balance of account A is 15000.After transfering rs 3000 to account b, the balance in account A remains rs 9000.
+The balance in account A is found to be lesser than expected.
+
+Steps to produce defect:
+1. Launch the citi bank application.
+2. enter credentials for account A.
+3.Click on the ‘Payments & Transfer’ Menu in the sidebar.
+4.Select 'Transact using UPI'.
+5.Provide the UPI Virtual ID of Account B.
+6.Enter the Amount as Rs3000 and the Remarks "Test" in the relevant fields.
+7. Click on 'Make Payment' button.
+8.Enter UPI pin for Account A.
+9.After successful payment,check balance of account A by clicking on Get Account balance button on the sidebar.
